@@ -1,0 +1,155 @@
+:root {
+    --dark: #252525;
+    --bright: #eff0f2;
+    --grey: #01162273;
+    --dark_grey: #b0b9c6
+}
+
+body {
+    background-color: #e2e5e9;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+.container_main {
+    margin: 60px auto;
+    width: 1024px;
+    background-color: #d9dfe7;
+    box-shadow: 6px 6px 6px 6px rgba(180, 168, 168, 0.3);
+    border-bottom: #575656;
+    font-size: 18px;
+    line-height: 1.25;
+    min-height: 100%;
+
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    background-color: #b0b9c6;
+}
+
+.navigation__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    text-transform: uppercase;   
+}
+
+.navigation a {
+    padding: 14px 10px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+  }
+
+.navigation a:hover {
+    color: #c44747;
+}
+main {
+    padding: 0 40px;
+    margin-bottom: 20px;
+  }
+  
+h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+ h2 {
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+ h3 {
+     color: #273035;
+ }
+ .photo_cv {
+    margin-bottom: 5px;
+    border-radius: 12%;
+    margin-top: 15px;
+}
+.block {
+    display: flex;
+}
+
+.left__block {
+    width: 50%;
+    color: var(--dark);
+}
+
+.myself {
+    margin: 45px 0;
+     
+}
+
+.languages {
+    line-height: 0.5;
+}
+
+.right__block {
+    width: 50%;
+    padding: 40px;
+    background-color: var(--bright);
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-radius:2%
+  }
+ 
+
+.contact {
+    font-weight: 500;
+
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    color: #252525;
+    background-color: var(--dark_grey);
+}
+
+footer a {
+    text-decoration: none;
+    color: #252525;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #407688;
+}
+
+.footer__github {
+    display: flex;
+    align-items: center;
+}
+
+footer .github__icon {
+    margin-right: 10px;
+}
+.code-example pre {
+    background-color: var(--dark_grey);
+    border-radius:2%;
+    padding: 10px;
+
+}
+
+  .main_photo {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:7%;
+  
+  }
+  
